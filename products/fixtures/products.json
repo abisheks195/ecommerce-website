@@ -1,0 +1,44 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "t-shirt",
+        "description": "this is an awesome t-shirt",
+        "price": "39.99",
+        "image": "",
+        "featured": false,
+        "active": true,
+        "timestamp": "2019-12-06T21:58:14.500Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "hat",
+        "slug": "hat",
+        "description": "this is a hat",
+        "price": "39.99",
+        "image": "products/15649781176/15649781176.jpg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2019-12-06T21:58:14.500Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "Computer",
+        "slug": "computer",
+        "description": "Yeahhhh",
+        "price": "399.99",
+        "image": "",
+        "featured": true,
+        "active": true,
+        "timestamp": "2019-12-06T21:58:14.500Z"
+    }
+}
+]

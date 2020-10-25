@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class='text-center'>
+        <img src='{% static "img/beach.jpg" %}' class='img-fluid'>
+        <p>{{ title }}</p>
+        <h1>Hello, world!</h1>
+      </div>
+    </div>
+  </div>
+</div>
+{% if request.user.is_authenticated %}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Premium</h1>
+      <p>{{ premium_content }}</p>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endblock %}
